@@ -9,12 +9,18 @@ html {
 /* WRAPPER: */
 
 .wrapper {
-  displlay
+  display: flex;
+  flex-direction: column;
+}
+
+.body{
+  flex:1;
 }
 
 /* HEADER:  */
 .header {
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 100%;
   padding-left: 30px;
@@ -52,6 +58,7 @@ html {
 .block-cards-content {
   display: flex;
   padding-left: 80px;
+  padding-right: 80px;
   padding-top: 40px;
 }
 
