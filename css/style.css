@@ -1,0 +1,91 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  height: 100%;
+}
+
+/* WRAPPER: */
+
+.wrapper {
+  displlay
+}
+
+/* HEADER:  */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 30px;
+  background-color: #343a40;
+}
+
+.menu,
+.menu a {
+  display: flex;
+  color: aliceblue;
+  align-self: center;
+  padding-left: 30px;
+}
+.menu-buttons {
+  display: flex;
+  padding-left: 10px;
+}
+
+/* BLOCK-PORTFOLIO: */
+.block-portfolio h1 {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.block-portfolio-content {
+  padding: 80px;
+  width: 40%;
+}
+
+.block-portfolio {
+  background-color: #f5f5f5;
+}
+
+/* BLOCK-CARDS: */
+.block-cards-content {
+  display: flex;
+  padding-left: 80px;
+  padding-top: 40px;
+}
+
+.card-1 {
+  margin-right: 50px;
+}
+
+.card-2 .card-body {
+  height: 100px;
+}
+
+/* BLOCK-TABLE: */
+
+.block-table {
+  padding-left: 80px;
+  padding-top: 30px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+}
+
+.table .light {
+  color: #007bff;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 56px;
+}
+
+.footer p {
+  margin: 0px;
+  margin-left: 80px;
+}
